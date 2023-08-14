@@ -19,5 +19,5 @@ class Net(nn.Module):
 
 
 if __name__ == "__main__":
-    model = Net(upscale_factor=3)
+    model = Net(upscale_factor=4)
     print(model)
